@@ -1,0 +1,82 @@
+
+.site-content.group #primary.left-column, .site-content.groups #primary.left-column {
+    position: relative;
+    padding: 30px 30px 30px 0;
+    min-height: 600px;
+	background: #f6f6f6;
+	}
+.group .left-column, .groups .left-column {
+    float: left;
+	width:70%;
+    bottom: 0;
+    padding: 0;
+}
+.group .right-column, .groups .right-column {
+
+    float: right;
+    padding: 0 0 0 30px;
+}
+
+.site-main{position:relative;margin-top:-24px}
+.toolbar{display:none}
+#setting{position:relative;background:#f6f6f6;height:auto}
+.last input[type=submit]{display:inline-block;cursor:pointer;padding:6px 12px;color:#fff;font-size:1.4rem;line-height:1.42857143;vertical-align:middle;font-weight:400;text-align:center;text-decoration:none;background:#32B0EC;white-space:nowrap;outline:0;border:none;cursor:pointer;vertical-align:middle;margin-top:3px;margin-bottom:5px;-ms-touch-action:manipulation;touch-action:manipulation;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.set_nav{height:46px;border-bottom:2px solid #32B0EC;padding:11px 10px 0}
+.set_nav li{float:left}
+.set_nav li a{float:left;width:90px;height:35px;text-align:center;border-radius:5px 5px 0 0;line-height:35px;font-size:15px;color:#999}
+.set_nav li.active a{background:#32B0EC;color:#fff}
+.set_nav li.last{float:right}
+.set_nav li.last a{background:#32B0EC;color:#FFF}
+.set_cnt{min-height:452px;line-height:25px}
+.set_cnt a{text-decoration:underline}
+.set_cnt p{line-height:30px;margin-top:10px}
+.set_cnt code{padding:2px 4px;color:#c7254e;background-color:#f9f2f4;border-radius:4px;margin:0 3px}
+.set_cnt .set_box{display:none}
+.set_box textarea{max-width:100%;width:100%;height:auto;margin:0 auto;overflow-y:auto}
+#cssdiy textarea{margin-top:20px}
+.set_box h2{border-bottom:2px dashed #999;height:35px;line-height:35px}
+.set_box h2 strong{border-bottom:2px solid #FF5E52;float:left;height:35px;padding:0 10px}
+.set_box h2 small{margin-left:15px;font-size:14px}
+.set_cnt li,ul li{list-style:none}
+.set_nav ul{margin-top:0;margin-bottom:0;padding:0}
+.bankinfo{width:100%;height:100px}
+.choosebank{padding:10px;float:left}
+.choosebank li{float:left;margin:1px 9px;display:inline}
+.choosebank li .radiobtn{float:left;margin:25px 10px 0 0;display:inline}
+.choosebank li label{width:81px;height:62px;overflow:hidden;background:url(images/bankshow.png) no-repeat;display:block;border:solid 2px #ddd;float:left;cursor:pointer}
+.choosebank li.cur label{border:2px solid #32B0EC;width:81px;height:62px}
+.choosebank li .bank-01{background-position:0 0}
+.choosebank li .bank-02{background-position:-1px -71px}
+.choosebank li .bank-03{background-position:-2px -141px}
+.choosebank li .bank-04{background-position:-108px 0}
+.choosebank li .bank-05{background-position:-109px -71px}
+.choosebank li .bank-06{background-position:-110px -140px}
+.set_box li{font-weight:700}
+.widget-content .note{padding-top:38px;margin-bottom:10px;background:url(images/bg-note-top.png) top center no-repeat}
+.widget-content .note-container{padding:1px 20px 0;text-indent:2em;background:url(images/bg-note-middle.png) top center repeat-y;overflow:hidden}
+.widget-content .note-bottom{padding-bottom:34px;background:url(images/bg-note-bottom.png) bottom center no-repeat}
+.widget-content{width:298px}
+.da-form-row .right_td{float:right}
+.da-form-row left_td{float:left}
+.da-form-row{padding:10px 16px;border-bottom:1px solid #d3d3d3}
+.da-form-row label{margin-bottom:.5rem;font-weight:600}
+.da-form-row form.da-form .customfile,.da-form-row input,.da-form-row select,.da-form-row textarea{background-color:#fcfcfc;border:1px solid #d1d1d1;padding:4px;outline:0;margin-bottom:2px;color:#444;font-size:1em;-webkit-border-radius:2px;-o-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-shadow:0 1px 0 rgba(255,255,255,1),inset 0 1px 1px rgba(0,0,0,.04);-moz-box-shadow:0 1px 0 rgba(255,255,255,1),inset 0 1px 1px rgba(0,0,0,.04);-o-box-shadow:0 1px 0 rgba(255,255,255,1),inset 0 1px 1px rgba(0,0,0,.04);box-shadow:0 1px 0 rgba(255,255,255,1),inset 0 1px 1px rgba(0,0,0,.04);-webkit-transition:background 150ms linear;-moz-transition:background 150ms linear;-ms-transition:background 150ms linear;-o-transition:background 150ms linear;transition:background 150ms linear}
+#banben{text-align:center;padding:10px 0;margin:12px 0 0 0}
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) {
+.set_nav {
+  height: 152px;
+  border-bottom: 2px solid #32B0EC;
+  /* padding: 11px 20px 0; */
+}
+
+.bankinfo {
+  width: 100%;
+  /* height: 100px; */
+}
+#banben img{width:220px}
+
+}
